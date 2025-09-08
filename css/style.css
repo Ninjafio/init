@@ -6,3 +6,11 @@ body {
 p {
     font-size: 20px;
 }
+
+.car_img {
+    transition: .3s;
+}
+
+.car_img:hover {
+    transform:rotate(90deg);
+}
