@@ -9,8 +9,14 @@ p {
 
 .car_img {
     transition: .3s;
+    width: 100px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .car_img:hover {
-    transform:rotate(90deg);
+    transform:rotate(360deg);
 }
